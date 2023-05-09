@@ -1,30 +1,23 @@
-$breakpoints: (
-  mobile: 360px,
-  tablet: 768px,
-  desktop: 1024px,
-  ultraWide: 2560px
-);
-
 @mixin onMobile {
-  @media (min-width: map-get($breakpoints, mobile)) {
+  @media (min-width: 360px) {
     @content;
   }
 }
 
 @mixin onTablet {
-  @media (min-width: map-get($breakpoints, tablet)) {
+  @media (min-width: 768px) {
     @content;
   }
 }
 
 @mixin onDesktop {
-  @media (min-width: map-get($breakpoints, desktop)) {
+  @media (min-width: 1024px) {
     @content;
   }
 }
 
 @mixin onUltraWide {
-  @media (min-width: map-get($breakpoints, ultraWide)) {
+  @media (min-width: 2560px) {
     @content;
   }
 }
