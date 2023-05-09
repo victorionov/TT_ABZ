@@ -1,0 +1,51 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/fonts.scss';
+
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  // padding: 1rem;
+  // padding-top: 13px;
+  // padding-bottom: 13px;
+
+  @include onMobile {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  @include onTablet {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  @include onDesktop {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+.logo {
+  width: 104px;
+  height: 26px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 34px;
+  background-color: $primary-color;
+  border-radius: 80px;
+  border: none;
+  color: $font-color;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
