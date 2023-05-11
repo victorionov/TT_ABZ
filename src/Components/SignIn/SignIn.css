@@ -3,11 +3,12 @@
   src: url("../assets/fonts/Nunito-Regular.ttf");
   font-weight: 400;
 }
-.bg_image {
+.signIn-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 100%;
   max-width: 1170px;
   height: calc(100vh - 60px);
   background-image: url("../../../public/bg_photos/bgPhoto_320.png");
@@ -16,12 +17,12 @@
   padding: 40px 16px;
 }
 @media (min-width: 768px) {
-  .bg_image {
+  .signIn-container {
     padding: 89px 194px;
   }
 }
 @media (min-width: 1024px) {
-  .bg_image {
+  .signIn-container {
     padding: 164px 322px;
   }
 }
@@ -32,7 +33,6 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 21px;
-  opacity: 1;
 }
 
 .content {
@@ -50,14 +50,22 @@
   }
 }
 
-.button {
+.button-sign-up {
   width: 100px;
   height: 34px;
   background-color: #F4E041;
   border-radius: 80px;
   border: none;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.8784313725);
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+  cursor: pointer;
+}
+.button-sign-up:hover {
+  background-color: #FFE302;
+}
+.button-sign-up:disabled {
+  background-color: #B4B4B4;
+  color: rgba(255, 255, 255, 0.8745098039);
 }/*# sourceMappingURL=SignIn.css.map */

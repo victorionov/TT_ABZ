@@ -15,6 +15,7 @@ export const TeamList: React.FC  = () => {
         <TeamCard />
         <TeamCard />
       </div>
+      <button className='button-more'>Show more</button>
       
     </div>
     
