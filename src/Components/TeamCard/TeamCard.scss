@@ -3,7 +3,50 @@
 @import '../../styles/fonts.scss';
 
 .card {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  min-width: 344px;
   height: 254px;
-  background-color: red;
+  border-radius: 10px;
+  
+  background-color: #fff;
+
+  @include onDesktop {
+    min-width: 282px;
+  }
+
+  @include onUltraWide {
+    min-width: 370px;
+  }
+}
+
+.photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  object-fit: cover;
+}
+
+.person-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.person-info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  
+  
+  &--position {
+    margin-bottom: 5px;
+  }
+  &--email {
+    margin-bottom: 5px;
+  }
 }

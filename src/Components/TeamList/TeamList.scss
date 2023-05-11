@@ -10,6 +10,10 @@ $column-gap-desktop: 29px;
 $column-gap-tablet: 16px;
 
 .team-list_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   background-color: $background-color;
   padding: 140px 16px;
 
@@ -28,13 +32,13 @@ $column-gap-tablet: 16px;
   text-align: center;
   color: $font-color;
   margin-bottom: 50px;
-  opacity: 0.8;
 }
 
 .card-grid-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: $column-gap-tablet;
+  margin-bottom: 50px;
 
   @include onTablet {
     max-width: $card-width-tablet * 2 + $column-gap-tablet ;
@@ -49,5 +53,27 @@ $column-gap-tablet: 16px;
   @include onUltraWide {
     max-width: $card-width-ultrawide * 3 + $column-gap-desktop * 2;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.button-more {
+  width: 120px;
+  height: 34px;
+  background-color: $primary-color;
+  border-radius: 80px;
+  border: none;
+  color: $font-color;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+
+  &:disabled {
+    background-color: $disabled-color;
+    color: #FFFFFFDF;
   }
 }
