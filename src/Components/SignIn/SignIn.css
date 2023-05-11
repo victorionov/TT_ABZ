@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito-Regular.ttf");
+  font-weight: 400;
+}
+.bg_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1170px;
+  height: calc(100vh - 60px);
+  background-image: url("../../../public/bg_photos/bgPhoto_320.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 16px;
+}
+@media (min-width: 768px) {
+  .bg_image {
+    padding: 89px 194px;
+  }
+}
+@media (min-width: 1024px) {
+  .bg_image {
+    padding: 164px 322px;
+  }
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 21px;
+  opacity: 1;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 36px;
+  opacity: 1;
+}
+@media (min-width: 360px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.button {
+  width: 100px;
+  height: 34px;
+  background-color: #F4E041;
+  border-radius: 80px;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}/*# sourceMappingURL=SignIn.css.map */
