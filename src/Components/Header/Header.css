@@ -8,6 +8,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 1170px;
   height: 60px;
 }
 @media (min-width: 360px) {

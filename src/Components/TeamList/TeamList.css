@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito-Regular.ttf");
+  font-weight: 400;
+}
+.team-list_block {
+  background-color: #F8F8F8;
+  padding: 140px 16px;
+}
+@media (min-width: 768px) {
+  .team-list_block {
+    padding: 140px 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .team-list_block {
+    padding: 140px 60px;
+  }
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+.card-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  .card-grid-container {
+    max-width: 704px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .card-grid-container {
+    max-width: 904px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 2560px) {
+  .card-grid-container {
+    max-width: 1168px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=TeamList.css.map */

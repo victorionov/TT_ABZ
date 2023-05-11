@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/fonts.scss';
+
+$card-width-ultrawide: 370px;
+$card-width-desktop: 282px;
+$card-width-tablet: 344px;
+$card-width-mobile: 328px;
+$column-gap-desktop: 29px;
+$column-gap-tablet: 16px;
+
+.team-list_block {
+  background-color: $background-color;
+  padding: 140px 16px;
+
+  @include onTablet {
+    padding: 140px 32px;
+  }
+
+  @include onDesktop {
+    padding: 140px 60px;
+  }
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: $font-color;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+.card-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $column-gap-tablet;
+
+  @include onTablet {
+    max-width: $card-width-tablet * 2 + $column-gap-tablet ;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include onDesktop {
+    max-width: $card-width-desktop * 3 + $column-gap-desktop * 2;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include onUltraWide {
+    max-width: $card-width-ultrawide * 3 + $column-gap-desktop * 2;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
