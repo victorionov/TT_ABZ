@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito-Regular.ttf");
+  font-weight: 400;
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  background-color: #F8F8F8;
+}
+
+.signup-title {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.8784313725);
+  margin-bottom: 50px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-input {
+  border: 1px solid #D0CFCF;
+  height: 54px;
+  padding: 14px 16px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  background-color: #F8F8F8;
+  color: #7E7E7E;
+}
+
+.signup-input:last-of-type {
+  margin-bottom: 4px;
+}
+
+.phone-example {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 16px;
+  color: #7E7E7E;
+  margin-bottom: 25px;
+}
+
+.radio-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=SignUp.css.map */

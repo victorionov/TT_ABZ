@@ -1,0 +1,53 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+@import '../../../styles/fonts.scss';
+
+.input-container {
+  display: flex;
+  flex-direction: column; 
+  width: 328px;
+  align-items: center;
+
+  @include onTablet {
+    width: 380px;
+  }
+}
+
+.input-wrap {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.input-wrap:last-of-type {
+  margin-bottom: 4px;
+}
+
+.signup-input {
+  width: 100%;
+  border: 1px solid #D0CFCF;
+  height: 54px;
+  padding: 14px 16px;
+  border-radius: 4px;
+  background-color: $background-color;
+  color: $font-color;
+
+  &.focus {
+    border: 1px solid #fb0000;
+  }
+
+  &.error {
+    border-color: #CB3D40;
+  }
+}
+
+
+
+.phone-example {
+  align-self: flex-start;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 16px;
+  color: #7E7E7E;
+  margin-bottom: 25px;
+}

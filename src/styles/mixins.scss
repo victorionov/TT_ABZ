@@ -22,3 +22,8 @@
   }
 }
 
+@mixin onLandscape {
+  @media (orientation: landscape) {
+    @content;
+  }
+}

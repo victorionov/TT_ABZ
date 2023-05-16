@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/fonts.scss';
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  width: 100%;
+  background-color: $background-color;
+  align-items: center;
+}
+
+.signup-title {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: $font-color;
+  margin-bottom: 50px;
+}
+
+.button-sign-up {
+  margin-bottom: 100px;
+}
