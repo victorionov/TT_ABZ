@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/TT_ABZ/static/css/main.699c6643.css",
-    "main.js": "/TT_ABZ/static/js/main.1937cf56.js",
+    "main.css": "/TT_ABZ/static/css/main.67b1f25d.css",
+    "main.js": "/TT_ABZ/static/js/main.42406d5a.js",
     "static/js/787.28cb0dcd.chunk.js": "/TT_ABZ/static/js/787.28cb0dcd.chunk.js",
     "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/TT_ABZ/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
     "static/media/Nunito-Regular.ttf": "/TT_ABZ/static/media/Nunito-Regular.ecb051cfab7da456b69f.ttf",
+    "static/media/Logo.svg": "/TT_ABZ/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
     "index.html": "/TT_ABZ/index.html",
-    "main.699c6643.css.map": "/TT_ABZ/static/css/main.699c6643.css.map",
-    "main.1937cf56.js.map": "/TT_ABZ/static/js/main.1937cf56.js.map",
+    "main.67b1f25d.css.map": "/TT_ABZ/static/css/main.67b1f25d.css.map",
+    "main.42406d5a.js.map": "/TT_ABZ/static/js/main.42406d5a.js.map",
     "787.28cb0dcd.chunk.js.map": "/TT_ABZ/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.699c6643.css",
-    "static/js/main.1937cf56.js"
+    "static/css/main.67b1f25d.css",
+    "static/js/main.42406d5a.js"
   ]
 }
